@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# NewsWebApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the NewsWebApp, a web application that fetches news from various categories using the NewsAPI and displays them in a user-friendly card format with pagination. Users can explore news from different categories, filter by country (US or India), and stay informed about the latest updates.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Category Filtering**: Navigate through news categories easily with the navigation bar. Click on a category to view news specifically from that category.
 
-### `npm start`
+- **Country Selection**: Use the country dropdown in the navigation bar to filter news based on your preference. Choose between the United States and India to get region-specific news.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Card Format Display**: News articles are presented in a clean and organized card format, making it easy for users to quickly scan and access information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Pagination**: Enjoy a seamless browsing experience with pagination. Navigate through multiple pages to explore a wide range of news articles within each category.
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **JavaScript**: The core programming language used for both the frontend and backend development.
 
-### `npm run build`
+- **React**: A popular JavaScript library for building user interfaces. It provides a dynamic and efficient way to create interactive web applications.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node**: A JavaScript runtime for server-side development. It allows the execution of JavaScript code outside of a browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Express**: A minimalist web application framework for Node.js. It simplifies the process of building robust and scalable web applications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **REST**: The architectural style used for building networked applications. It is employed to design the communication between the frontend and backend components of the NewsWebApp.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the NewsWebApp locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repository to your local machine.
+   ```bash
+   git clone https://github.com/your-username/NewsWebApp.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. run the server using nodemon or node start
