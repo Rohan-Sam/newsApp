@@ -2,6 +2,8 @@
 
 Welcome to the NewsWebApp, a web application that fetches news from various categories using the NewsAPI and displays them in a user-friendly card format with pagination. Users can explore news from different categories, filter by country (US or India), and stay informed about the latest updates.
 
+![image](https://github.com/Rohan-Sam/newsApp/assets/81621417/69f69899-66cb-4814-9fe8-bad922589e50)
+
 ## Features
 
 - **Category Filtering**: Navigate through news categories easily with the navigation bar. Click on a category to view news specifically from that category.
